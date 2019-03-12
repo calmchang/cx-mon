@@ -1,0 +1,19 @@
+{
+  "name": "cx-mon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/mon.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "lib",
+    "test"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "cx-urlencode": "^1.0.3"
+  }
+}
