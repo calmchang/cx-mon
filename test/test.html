@@ -21,12 +21,11 @@
     <div id="app">
       点击事件
     </div>
-
+    
     <script type="module">
       import urlencode from '../node_modules/cx-urlencode/lib/urlencode.js'; 
+      import mon from "../src/mon.js";
       window.urlencode=urlencode.encode;
-
-      import cxmon from '../lib/mon.js';
       document.getElementById("app").onclick=function(){
         window.cxmon.event('click','测试按钮','点击了');
       };
